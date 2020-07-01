@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/flagscountries">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="#E4886262">
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/head1"
+            android:fontFamily="cursive"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            android:alpha="1"
+            android:textColor="#FFEB3B">
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/start"
+            android:text="Start Learning"
+            android:background="#F90313"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:layout_below="@id/head"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="90dp"
+            android:paddingHorizontal="20dp"
+            android:onClick="Insert"></Button>
+
+    </RelativeLayout>
+</RelativeLayout>
